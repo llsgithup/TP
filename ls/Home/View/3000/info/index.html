@@ -1,0 +1,62 @@
+<extend name="3000/Index/base" />
+<block name="customer">
+	<style>
+		.media{margin-bottom: 30px;boder-bottom:solid 10px #ddd;}
+	</style>
+	<script >
+		var detail_data=[
+	
+				<foreach name='detail_data' item='info'>
+				[{$info.info_id},'{$info.im_key}','{$info.im_value}'],
+				</foreach>
+				[-1,"",""]
+				];
+				
+	function getMeta(info_id,im_key,defaultvalue)
+    {
+        for(var i=0;i<detail_data.length;i++)
+        {
+            if(detail_data[i][0]==info_id && detail_data[i][1]==im_key )
+                    return detail_data[i][2];
+        }
+        if(defaultvalue)
+        return defaultvalue;
+        else
+              return 0;
+    }
+		
+	</script>
+	<div class="container clearfix">
+		<div class="col-md-8 column">
+			<foreach name='main_data' item='info'>
+				<div class="row">
+					<div class="media">
+						<div class="media-left">
+							<a href="#">
+							<script>document.write("<img src='"+getMeta({$info.info_id},'pimg','/tp/Public/prod/3.jpg')+"'/>");</script>
+							</a>
+						</div>
+						
+						<div class="media-body">
+							<h4 class="media-heading">{$info.info_title}</h4>
+							<blockquote>{$info.info_des}</blockquote>
+							<!--{~$meta_data=R('Info/loadDetail',array($md['info_id'],$detail_data),'API')}//在API写传入-->
+							<p><small>点击量:<script>document.write(getMeta({$info.info_id},'views'));</script> </small>
+                              <small>评论数:<script>document.write(getMeta({$info.info_id},'review'));</script></span>
+							</p>
+
+						</div>
+					</div>
+				</div>
+			</foreach>
+			<div class="pagination">
+				{$pagebar}
+			</div>
+		
+
+		</div>
+			<div class="col-md-4 column">
+				{:W('Info/load',array(1))}
+			</div>
+	</div>
+</block>

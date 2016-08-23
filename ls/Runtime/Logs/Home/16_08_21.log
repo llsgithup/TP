@@ -1,0 +1,186 @@
+[ 2016-08-21T21:58:39+08:00 ] ::1 /tp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.3419s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0483s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:2.373805s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.002214s ]
+INFO: [ app_begin ] --END-- [ RunTime:2.376997s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\abd083ecb567af415a5adc9716eb0eaf.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2016-08-21T21:58:41+08:00 ] ::1 /tp/Home/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.017547s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.002550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021131s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\0eed40ea8e256953b800969e2c847250.php 第 48 行.
+NOTIC: [8] Undefined variable: errorinfo E:\wamp\www\tp\ls\Runtime\Cache\Home\0eed40ea8e256953b800969e2c847250.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2016-08-21T21:58:41+08:00 ] ::1 /tp/Home/temp/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002497s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0005s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.022766s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2016-08-21T22:01:13+08:00 ] ::1 /tp/Home/pages/calendar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.018738s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.002379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022104s ]
+ERR: 无法加载控制器:Pages
+
+[ 2016-08-21T22:11:50+08:00 ] ::1 /tp/Home/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0602s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0009s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.077245s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.002896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.081441s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\0eed40ea8e256953b800969e2c847250.php 第 48 行.
+NOTIC: [8] Undefined variable: errorinfo E:\wamp\www\tp\ls\Runtime\Cache\Home\0eed40ea8e256953b800969e2c847250.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2016-08-21T22:11:50+08:00 ] ::1 /tp/Home/temp/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.016157s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018940s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001419s ]
+
+[ 2016-08-21T22:57:57+08:00 ] ::1 /tp/Home/Info?type=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0007s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.021963s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024698s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0330s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_type=2 ) LIMIT 1   [ RunTime:0.0818s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_type=2 ) ORDER BY info_id LIMIT 0,1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0347s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\958cce911952fba7daa245110d9b898d.php 第 48 行.
+NOTIC: [8] Undefined variable: md E:\wamp\www\tp\ls\Runtime\Cache\Home\958cce911952fba7daa245110d9b898d.php 第 103 行.
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_type=1 ) ORDER BY info_id desc LIMIT 5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.081220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000658s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+

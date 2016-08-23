@@ -1,0 +1,2886 @@
+[ 2016-08-19T20:05:11+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0719s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0478s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.192995s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.003872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.198201s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0346s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.1075s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.044596s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.044778s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\c2a9317dd4e547bbdccb57079ce11e04.php 第 48 行.
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_type=1 ) ORDER BY info_id desc LIMIT 5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.050909s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2016-08-19T20:14:23+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0005s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.018767s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.002719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001217s ]
+
+[ 2016-08-19T20:18:53+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0005s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.013801s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016737s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000307s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000539s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\c2a9317dd4e547bbdccb57079ce11e04.php 第 48 行.
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_type=1 ) ORDER BY info_id desc LIMIT 5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.018655s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2016-08-19T20:19:08+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.015419s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018098s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\c2a9317dd4e547bbdccb57079ce11e04.php 第 48 行.
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015785s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000724s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000963s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001463s ]
+
+[ 2016-08-19T20:19:13+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0005s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.015029s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.002159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018097s ]
+
+[ 2016-08-19T20:19:34+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.015503s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017760s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\c2a9317dd4e547bbdccb57079ce11e04.php 第 48 行.
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014367s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2016-08-19T20:19:37+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.016708s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018769s ]
+
+[ 2016-08-19T20:19:40+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.014399s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.003521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018966s ]
+
+[ 2016-08-19T20:19:43+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.014818s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016895s ]
+
+[ 2016-08-19T20:20:04+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.015794s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018295s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\c2a9317dd4e547bbdccb57079ce11e04.php 第 48 行.
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2016-08-19T20:20:19+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.016433s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019225s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\c2a9317dd4e547bbdccb57079ce11e04.php 第 48 行.
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015689s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000804s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2016-08-19T20:20:28+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.017784s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020406s ]
+
+[ 2016-08-19T20:23:03+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0012s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.022061s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.003543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026555s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0603s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\c2a9317dd4e547bbdccb57079ce11e04.php 第 48 行.
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.018200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2016-08-19T20:23:07+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.013964s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016271s ]
+
+[ 2016-08-19T20:26:19+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.016499s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019111s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2016-08-19T20:26:19+08:00 ] ::1 /tp/Home/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.012358s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014726s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\0eed40ea8e256953b800969e2c847250.php 第 48 行.
+NOTIC: [8] Undefined variable: errorinfo E:\wamp\www\tp\ls\Runtime\Cache\Home\0eed40ea8e256953b800969e2c847250.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2016-08-19T20:26:19+08:00 ] ::1 /tp/Home/temp/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.016363s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2016-08-19T20:26:22+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.014915s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017387s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\c2a9317dd4e547bbdccb57079ce11e04.php 第 48 行.
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.013613s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000594s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001023s ]
+
+[ 2016-08-19T20:26:29+08:00 ] ::1 /tp/Home/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.013459s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.003208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017669s ]
+NOTIC: [8] Undefined variable: id E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `3000_user` [ RunTime:0.0588s ]
+SQL: SELECT * FROM `3000_user` WHERE ( user_name='qq343982190' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 123 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\0eed40ea8e256953b800969e2c847250.php 第 48 行.
+NOTIC: [8] Undefined variable: errorinfo E:\wamp\www\tp\ls\Runtime\Cache\Home\0eed40ea8e256953b800969e2c847250.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2016-08-19T20:26:30+08:00 ] ::1 /tp/Home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.013868s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020411s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000423s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2016-08-19T20:26:50+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0006s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.018883s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.006262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026485s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T20:27:03+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.017607s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023962s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T20:29:55+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001714s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.016811s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024185s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_type=1 ) ORDER BY info_id desc LIMIT 5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.018580s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2016-08-19T20:30:14+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.015932s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022550s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.013619s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-08-19T20:30:31+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.015502s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.004870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021188s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.013369s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2016-08-19T20:30:53+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.016859s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023095s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.016185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000758s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2016-08-19T20:30:57+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.013633s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.007629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022080s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T20:31:01+08:00 ] ::1 /tp/Home/info/detail?do=logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.013394s ]
+
+[ 2016-08-19T20:31:04+08:00 ] ::1 /tp/Home/info/detail?do=logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.017741s ]
+
+[ 2016-08-19T20:31:06+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.016557s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019204s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\c2a9317dd4e547bbdccb57079ce11e04.php 第 48 行.
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.013942s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000620s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001153s ]
+
+[ 2016-08-19T20:31:07+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0005s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.012180s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014843s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\c2a9317dd4e547bbdccb57079ce11e04.php 第 48 行.
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.013656s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2016-08-19T20:31:11+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0006s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.019125s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021874s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+
+[ 2016-08-19T20:36:56+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.025944s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028529s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\c2a9317dd4e547bbdccb57079ce11e04.php 第 48 行.
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.013637s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001126s ]
+
+[ 2016-08-19T20:37:01+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0008s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.013631s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.002360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017073s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+
+[ 2016-08-19T20:37:18+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.015755s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018037s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\c2a9317dd4e547bbdccb57079ce11e04.php 第 48 行.
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000906s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-08-19T20:37:20+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.013740s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016779s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+
+[ 2016-08-19T20:37:20+08:00 ] ::1 /tp/Home/login?from=http%3A%2F%2Flocalhost%2Ftp%2FHome%2Finfo%2Fdetail%3Fpid%3D14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.012404s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014615s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\0eed40ea8e256953b800969e2c847250.php 第 48 行.
+NOTIC: [8] Undefined variable: errorinfo E:\wamp\www\tp\ls\Runtime\Cache\Home\0eed40ea8e256953b800969e2c847250.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-08-19T20:37:21+08:00 ] ::1 /tp/Home/temp/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.014298s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2016-08-19T20:37:31+08:00 ] ::1 /tp/Home/login?from=http%3A%2F%2Flocalhost%2Ftp%2FHome%2Finfo%2Fdetail%3Fpid%3D14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.013800s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016386s ]
+NOTIC: [8] Undefined variable: id E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 100 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\0eed40ea8e256953b800969e2c847250.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2016-08-19T20:37:31+08:00 ] ::1 /tp/Home/temp/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0005s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.019074s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.002492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001416s ]
+
+[ 2016-08-19T20:37:54+08:00 ] ::1 /tp/Home/login?from=http%3A%2F%2Flocalhost%2Ftp%2FHome%2Finfo%2Fdetail%3Fpid%3D14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001375s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.013631s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017252s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\0eed40ea8e256953b800969e2c847250.php 第 48 行.
+NOTIC: [8] Undefined variable: errorinfo E:\wamp\www\tp\ls\Runtime\Cache\Home\0eed40ea8e256953b800969e2c847250.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2016-08-19T20:37:55+08:00 ] ::1 /tp/Home/temp/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.016317s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.002070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-08-19T20:37:56+08:00 ] ::1 /tp/Home/login?from=http%3A%2F%2Flocalhost%2Ftp%2FHome%2Finfo%2Fdetail%3Fpid%3D14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.014953s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017356s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\0eed40ea8e256953b800969e2c847250.php 第 48 行.
+NOTIC: [8] Undefined variable: errorinfo E:\wamp\www\tp\ls\Runtime\Cache\Home\0eed40ea8e256953b800969e2c847250.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2016-08-19T20:37:56+08:00 ] ::1 /tp/Home/temp/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.011696s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.003949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2016-08-19T20:37:58+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.016887s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019231s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\c2a9317dd4e547bbdccb57079ce11e04.php 第 48 行.
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.017644s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2016-08-19T20:38:00+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.018267s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.002216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022112s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+
+[ 2016-08-19T20:38:00+08:00 ] ::1 /tp/Home/login?from=http%3A%2F%2Flocalhost%2Ftp%2FHome%2Finfo%2Fdetail%3Fpid%3D14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0010s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.012048s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: user_login E:\wamp\www\tp\ls\Runtime\Cache\Home\0eed40ea8e256953b800969e2c847250.php 第 48 行.
+NOTIC: [8] Undefined variable: errorinfo E:\wamp\www\tp\ls\Runtime\Cache\Home\0eed40ea8e256953b800969e2c847250.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2016-08-19T20:38:00+08:00 ] ::1 /tp/Home/temp/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.015131s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2016-08-19T20:38:04+08:00 ] ::1 /tp/Home/login?from=http%3A%2F%2Flocalhost%2Ftp%2FHome%2Finfo%2Fdetail%3Fpid%3D14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.011830s ]
+NOTIC: [8] Undefined index: userin E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 80 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.001450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014125s ]
+NOTIC: [8] Undefined variable: id E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `3000_user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `3000_user` WHERE ( user_name='qq343982190' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 123 行.
+
+[ 2016-08-19T20:38:04+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.010978s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.006344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018017s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014753s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000729s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2016-08-19T20:38:08+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.016235s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022621s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T20:47:43+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.013308s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019328s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_type=1 ) ORDER BY info_id desc LIMIT 5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.018776s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002755s ]
+
+[ 2016-08-19T20:47:47+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001934s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.019345s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.006051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027662s ]
+
+[ 2016-08-19T20:49:34+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0006s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.016812s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023050s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015328s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2016-08-19T20:49:37+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.011406s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.007871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020128s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T20:49:54+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.016532s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023145s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.013800s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2016-08-19T20:49:56+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.015874s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.004907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021570s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T20:50:57+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.019059s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.009053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028838s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.012998s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2016-08-19T20:51:02+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.014994s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.004740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020515s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T20:51:23+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.020475s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.008167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029881s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000373s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.016183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2016-08-19T20:51:25+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.013183s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.006207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020569s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T20:53:17+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.015817s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021758s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015869s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2016-08-19T20:53:20+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001354s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0008s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.015372s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022668s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T20:54:25+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.016674s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.006185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023684s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T20:54:27+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.014512s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020493s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014972s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2016-08-19T20:54:30+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.013926s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019981s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T20:54:48+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.017572s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024051s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T20:55:15+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.015780s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.004998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021484s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000477s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.016204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2016-08-19T20:55:21+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.014190s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.004899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019872s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T20:55:40+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0005s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.017438s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024173s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.018073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000795s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2016-08-19T20:55:46+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0009s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.016897s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.006233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025164s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T20:56:07+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001137s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.017573s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.006018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025194s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000427s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.019995s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2016-08-19T20:56:10+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.017177s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.004704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023157s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T20:56:17+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.016092s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.006079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023070s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T20:56:23+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.016404s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.006861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024247s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.016589s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2016-08-19T20:56:26+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.017190s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.004966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022878s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T20:56:49+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.016894s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.004734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022505s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T20:58:50+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.017588s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023770s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T20:59:15+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.017742s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.006292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024826s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T20:59:45+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.017234s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.007464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025516s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T20:59:51+08:00 ] ::1 /tp/Home/Cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.018146s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024544s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T21:00:32+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.017717s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.004874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023546s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_type=1 ) ORDER BY info_id desc LIMIT 5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.025676s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000971s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2016-08-19T21:00:34+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.019293s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.007501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028053s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T21:01:10+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0006s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.019150s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.006442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027089s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015571s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000478s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2016-08-19T21:01:13+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.022359s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028209s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [2] preg_match(): Unknown modifier '^' E:\wamp\www\tp\ThinkPHP\Common\functions.php 第 356 行.
+
+[ 2016-08-19T21:01:31+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.021969s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029209s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T21:05:16+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.017382s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024569s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2016-08-19T21:05:38+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.020582s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026564s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.018610s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000414s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2016-08-19T21:05:45+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.017701s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023778s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T21:06:39+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.020263s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.008077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029439s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.016792s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2016-08-19T21:07:52+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.019572s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026723s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015742s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000799s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001254s ]
+
+[ 2016-08-19T21:08:43+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.015850s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.004800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021392s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015739s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-08-19T21:08:45+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.017260s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.004712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022758s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T21:08:56+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.016845s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.004783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023151s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.016258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2016-08-19T21:08:58+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.016599s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.007838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025294s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T21:09:08+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.016655s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.004867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022981s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.017382s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000975s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001516s ]
+
+[ 2016-08-19T21:09:10+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001621s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.022707s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.006029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030774s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T21:09:17+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.014504s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.006716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022380s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015714s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001155s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001393s ]
+
+[ 2016-08-19T21:09:20+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0004s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.014815s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.004768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020306s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T21:10:19+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.017966s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.006228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025050s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T21:10:23+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0008s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.014801s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.010712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027612s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.016688s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000796s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2016-08-19T21:10:25+08:00 ] ::1 /tp/Home/cart/add_cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.015612s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.004796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021101s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+
+[ 2016-08-19T21:28:53+08:00 ] ::1 /tp/Home/info/detail?pid=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `3000_navbar` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+INFO: Run Home\Behaviors\NavBehavior [ RunTime:0.016851s ]
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant ENCRPY_KEY - assumed 'ENCRPY_KEY' E:\wamp\www\tp\ls\Home\API\UserAPI.class.php 第 63 行.
+INFO: Run Home\Behaviors\UserBehavior [ RunTime:0.005927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023694s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_id=14 and info_type=2 ) ORDER BY info_id LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info_meta` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `3000_info_meta` WHERE ( info_id in(14) ) ORDER BY info_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `3000_navbar` WHERE ( nav_isshow=1 ) ORDER BY nav_index  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `3000_info_widget` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `3000_info_widget` WHERE ( wig_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `3000_info` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `3000_info` WHERE ( info_type=1 ) ORDER BY info_id desc LIMIT 5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.021352s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000751s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
